@@ -49,7 +49,7 @@ class Search extends Component {
         <div>
           <input id="bookQ" className="form-control form-control-lg" autoComplete="off" type="text" name="query" onChange={this.handleInput} />
           <button  type="submit" onClick={this.searchGBooks} >
-            Search
+            Search for Books
           </button>
                    
 
@@ -69,7 +69,16 @@ class Search extends Component {
                 book.volumeInfo.imageLinks.thumbnail : "#"}
               />
 
-             
+              <AddBookBtn
+              authors={book.volumeInfo.authors ? book.volumeInfo.authors : ["No Author Available"]}
+              title={book.volumeInfo.title}
+              synopsis={book.volumeInfo.description ? 
+                book.volumeInfo.description : "No Description Available"}
+              link={book.volumeInfo.infoLink}
+              thumbnail={book.volumeInfo.imageLinks.thumbnail ? 
+                book.volumeInfo.imageLinks.thumbnail : "#"}
+              
+              />
               </div>
             )
           })}
