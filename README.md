@@ -1,18 +1,17 @@
 # unit20_Google Books Search
 
-![Click Here!](./pics/bestbuy.gif)
+![Click Here!](./pics/google_books.jpg)
 
 In this assignment, I helped create a search for books via the Google Books API. The user has an option to "View" a book, bringing them to the book on Google Books, or "Save" a book, saving it to the Mongo database.  
 
 ## Code Snippets
 
-![OMG](./pics/components.jpg)
+![OMG](./pics/controller.jpg)
 
-I styled it and wondered why is none of it was working. I kept looking at my components and the apps.js file for any errors. I looked at several classroom exercises that are similar, but the was no misspellings, import component problems. I searched through all the files that are related and couldn't find a thing.
+Code snippets of controller and model, below.
 
-![OMG](./pics/bootstrap.jpg)
+![OMG](./pics/model.jpg)
 
-Then suddenly, I thought, isn't there suppose to be a link to bootstrap for styling? I remember in a few exercises is not to forget to add it in the index.html. I opened the index.html file, low and behold, there was no bootstrap stylesheet link. 
 
 ## Getting Started
 
