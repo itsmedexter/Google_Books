@@ -1,29 +1,51 @@
-# Create React Express App
+# unit20_Google Books Search
 
-## About This Boilerplate
+![Click Here!](./pics/bestbuy.gif)
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+In this assignment, I helped create a search for books via the Google Books API. The user has an option to "View" a book, bringing them to the book on Google Books, or "Save" a book, saving it to the Mongo database.  
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+## Code Snippets
 
-## Starting the app locally
+![OMG](./pics/components.jpg)
 
-Start by installing front and backend dependencies. While in this directory, run the following command:
+I styled it and wondered why is none of it was working. I kept looking at my components and the apps.js file for any errors. I looked at several classroom exercises that are similar, but the was no misspellings, import component problems. I searched through all the files that are related and couldn't find a thing.
 
-```
-npm install
-```
+![OMG](./pics/bootstrap.jpg)
 
-This should install node modules within the server and the client folder.
+Then suddenly, I thought, isn't there suppose to be a link to bootstrap for styling? I remember in a few exercises is not to forget to add it in the index.html. I opened the index.html file, low and behold, there was no bootstrap stylesheet link. 
 
-After both installations complete, run the following command in your terminal:
+## Getting Started
 
-```
-npm start
-```
+To get started using the application, use any web browser to view live link, (https://frozen-oasis-60943.herokuapp.com/). Repository link, (https://github.com/itsmedexter/unit20_Google_Books). If you download the repository, you can use gitbash to run mongod first, by typing in the command line "mongod". Then cd into server and do a "node server" to start server. Then cd into client and do a "npm start". This will automaticly open a browser window and have the application running.   
 
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
+## Technolgies Used
 
-## Deployment (Heroku)
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [Bootstrap](https://getbootstrap.com/)
+* [NodeJS](https://nodejs.org/en/)
+* [React](https://reactjs.org/)
 
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
+
+
+## Deployed Link
+
+* [See Live Site](https://frozen-oasis-60943.herokuapp.com/)
+
+
+## Authors
+
+Dexter Valencia 
+
+- [Link to Repository Site](https://github.com/itsmedexter/unit20_Google_Books)
+- [Link to Github](https://github.com/itsmedexter)
+- [Link to LinkedIn](https://www.linkedin.com/in/dextervalencia/)
+
+## License
+
+This project is licensed under the MIT License 
+
+## Acknowledgments
+
+* Thanks to Kerwin and Mahisha for helpful hints!  
+

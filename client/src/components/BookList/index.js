@@ -32,7 +32,7 @@ export function BookList({children}) {
               >
                 <button>View</button>
               </a>
-              <a className="nav-link navbar-brand" id="savedLink" href="/bookshelf">Save</a>
+              <a className="nav-link navbar-brand" id="savedLink" href="/bookshelf"><button>Save</button></a>
             </Col>
           </Row>
         </Container>
