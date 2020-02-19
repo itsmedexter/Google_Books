@@ -1,18 +1,19 @@
 import React from "react";
 
 function Nav() {
-
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <a className="navbar-brand" href="/">
-        React Google Book
+    <div>
+    <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a className="navbar-brand" id="homeLink" href="/">
+        Google Books Search
       </a>
-      <ul className="navbar-nav">
+     <ul className="navbar-nav">
      <li className="nav-item">
-       <a className="nav-link navbar-brand" id="savedLink" href="/bookshelf">Save</a>
+       <a className="nav-link navbar-brand" id="savedLink" href="/bookshelf">Saved Books</a>
      </li>
    </ul>
-    </nav>
+ </nav>
+ </div>
   );
 }
 
