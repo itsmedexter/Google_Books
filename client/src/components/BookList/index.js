@@ -30,8 +30,9 @@ export function BookList({children}) {
                 href={this.props.link}
                 rel="noopener noreferrer"
               >
-                Go to book!
+                <button>View</button>
               </a>
+              <a className="nav-link navbar-brand" id="savedLink" href="/bookshelf">Save</a>
             </Col>
           </Row>
         </Container>

@@ -24,7 +24,6 @@ class Search extends Component {
     axios
       .get(url)
       .then(res => {
-        //console.log(res);
         this.displayRes(res.data);
       })
       .catch(err => console.log(err));
@@ -36,7 +35,6 @@ class Search extends Component {
     this.setState({
       [name]: value
     });
-    //console.log("Query", this.state.query);
   };
 
 
@@ -49,7 +47,7 @@ class Search extends Component {
         <div>
           <input id="bookQ" className="form-control form-control-lg" autoComplete="off" type="text" name="query" onChange={this.handleInput} />
           <button  type="submit" onClick={this.searchGBooks} >
-            Search for Books
+            Search
           </button>
                    
 
